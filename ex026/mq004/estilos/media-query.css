@@ -11,6 +11,23 @@ Grandes telas: acima de 1200px
 */
 
 @media print {
+    
+    main {
+        border: 0.5px solid black;
+
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        text-shadow: none;
+    }
+
+    img#pc { display: none;}
+    img#phone { display: none;}
+    img#tablet { display: none;}
+    img#print { display: block;}
+    img#tv { display: none;}
 
 }
 
